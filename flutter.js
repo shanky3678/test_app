@@ -228,7 +228,7 @@ _flutter.loader = null;
      * Returns undefined when an `onEntrypointLoaded` callback is supplied in `options`.
      */
     async loadEntrypoint(options) {
-      const { entrypointUrl = "main.dart.js", onEntrypointLoaded } =
+      const { entrypointUrl = "https://raw.githubusercontent.com/shanky3678/test_app/main/main.dart.js", onEntrypointLoaded } =
         options || {};
 
       return this._loadEntrypoint(entrypointUrl, onEntrypointLoaded);

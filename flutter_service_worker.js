@@ -3,35 +3,35 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "2efbb41d7877d10aac9d091f58ccd7b9",
-"assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
-"assets/fonts/MaterialIcons-Regular.otf": "e7069dfd19b331be16bed984668fe080",
-"assets/NOTICES": "1c1af7a96477dd23b121bf6b33c55714",
-"assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
-"canvaskit/canvaskit.js": "97937cb4c2c2073c968525a3e08c86a3",
-"canvaskit/canvaskit.wasm": "3de12d898ec208a5f31362cc00f09b9e",
-"canvaskit/profiling/canvaskit.js": "c21852696bc1cc82e8894d851c01921a",
-"canvaskit/profiling/canvaskit.wasm": "371bc4e204443b0d5e774d64a046eb99",
-"favicon.png": "5dcef449791fa27946b3d35ad8803796",
-"flutter.js": "1cfe996e845b3a8a33f57607e8b09ee4",
-"icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
-"icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
-"icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "4e0db88603f895e3343cbc3ebd4585cb",
-"/": "4e0db88603f895e3343cbc3ebd4585cb",
-"main.dart.js": "c2641228aa56869701c8dba7771fd0eb",
-"manifest.json": "c4cd1337db9da283a8433de90fb18b19",
-"version.json": "f87e4c94597958d2930a763a16a7e3e0"
+  "https://raw.githubusercontent.com/shanky3678/test_app/main/assets/AssetManifest.json": "2efbb41d7877d10aac9d091f58ccd7b9",
+"https://raw.githubusercontent.com/shanky3678/test_app/main/assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
+"https://raw.githubusercontent.com/shanky3678/test_app/main/assets/fonts/MaterialIcons-Regular.otf": "e7069dfd19b331be16bed984668fe080",
+"https://raw.githubusercontent.com/shanky3678/test_app/main/assets/NOTICES": "1c1af7a96477dd23b121bf6b33c55714",
+"https://raw.githubusercontent.com/shanky3678/test_app/main/assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
+"https://raw.githubusercontent.com/shanky3678/test_app/main/canvaskit/canvaskit.js": "97937cb4c2c2073c968525a3e08c86a3",
+"https://raw.githubusercontent.com/shanky3678/test_app/main/canvaskit/canvaskit.wasm": "3de12d898ec208a5f31362cc00f09b9e",
+"https://raw.githubusercontent.com/shanky3678/test_app/main/canvaskit/profiling/canvaskit.js": "c21852696bc1cc82e8894d851c01921a",
+"https://raw.githubusercontent.com/shanky3678/test_app/main/canvaskit/profiling/canvaskit.wasm": "371bc4e204443b0d5e774d64a046eb99",
+"https://raw.githubusercontent.com/shanky3678/test_app/main/favicon.png": "5dcef449791fa27946b3d35ad8803796",
+"https://raw.githubusercontent.com/shanky3678/test_app/main/flutter.js": "1cfe996e845b3a8a33f57607e8b09ee4",
+"https://raw.githubusercontent.com/shanky3678/test_app/main/icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
+"https://raw.githubusercontent.com/shanky3678/test_app/main/icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
+"https://raw.githubusercontent.com/shanky3678/test_app/main/icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
+"https://raw.githubusercontent.com/shanky3678/test_app/main/icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
+"https://raw.githubusercontent.com/shanky3678/test_app/main/index.html": "4e0db88603f895e3343cbc3ebd4585cb",
+"https://raw.githubusercontent.com/shanky3678/test_app/main/": "4e0db88603f895e3343cbc3ebd4585cb",
+"https://raw.githubusercontent.com/shanky3678/test_app/main/main.dart.js": "c2641228aa56869701c8dba7771fd0eb",
+"https://raw.githubusercontent.com/shanky3678/test_app/main/manifest.json": "c4cd1337db9da283a8433de90fb18b19",
+"https://raw.githubusercontent.com/shanky3678/test_app/main/version.json": "f87e4c94597958d2930a763a16a7e3e0"
 };
 
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = [
-  "main.dart.js",
-"index.html",
-"assets/AssetManifest.json",
-"assets/FontManifest.json"];
+  "https://raw.githubusercontent.com/shanky3678/test_app/main/main.dart.js",
+"https://raw.githubusercontent.com/shanky3678/test_app/main/index.html",
+"https://raw.githubusercontent.com/shanky3678/test_app/main/assets/AssetManifest.json",
+"https://raw.githubusercontent.com/shanky3678/test_app/main/assets/FontManifest.json"];
 // During install, the TEMP cache is populated with the application shell files.
 self.addEventListener("install", (event) => {
   self.skipWaiting();
